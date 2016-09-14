@@ -1,3 +1,10 @@
+# SESYNC CSI
+
+Goals -
+- Learn Rstudio and R to start replacing matlab
+- How does R interface with APIs?
+- cooooooooode
+
 # Welcome to a SESYNC Training Event
 
 Once you have cloned this repository, why don't you push it back up to your own GitHub repo?
