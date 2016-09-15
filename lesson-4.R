@@ -94,12 +94,6 @@ sum(c(1,3,5))
 #but
 c(1, 3, 5, NA) %>% sum(na.rm=TRUE) #is more convenient
 
-# prop_1990_winter_piped <- surveys %>%
-#   filter(year == 1990, month %in% 1:3)
-#   ... 
-#   ... # group by species_id
-#   ... # summarize with counts
-#   ... # mutate into proportions
 prop_1990_winter_piped <- surveys %>%
   filter(year == 1990, month %in% 1:3) %>% 
   select(-year) %>%                 # select all columns but year
